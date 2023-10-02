@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.wrapper{
+    max-width: 1440px;
+    widows: 100%;
+    margin: auto;
+    
+}
+.contener{
+    margin: auto;
+    width: 100%;
+    background: #282828;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+}
+nav{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    gap: 30px;
+    padding: 8px 0px;
+
+}
+
+.logo ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 20px 0px;
+}
+.logo li > a{
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.icon > button{
+    margin: 0px 5px;
+    width: 17px;
+    height: 20px;
+    flex-shrink: 0;    
+    flex-shrink: 0;
+    background: #282828;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+
+.section{
+    width: 100%;
+    background-image: url(./img/Header\ \(1\).png);
+    background-size: cover;
+    background-position: center;
+    height: 635px;
+    display: flex;                              
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+.section h1{
+    color: #FFF;
+    font-family: Prosto One;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 75px; /* 75% */    
+}
+
+.section button{
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;    
+    color: #171718;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;    
+}
+
+section{
+    width: 100%;
+    margin: auto;
+    background: #151515;
+}
+
+.banner{
+    padding: 30px 0px;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+    
+
+}
+
+.banner_one{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+p{
+    width: 538px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;    
+}
+.banner_two{
+    gap: 87px;
+    display: flex;
+    align-items: center;
+
+
+}
+.banner_the{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 86px;
+}
+.banner_the p{
+    width: 333px
+}
+
+.advertising{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 55px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 255px;
+    height: 312px;
+    flex-shrink: 0;
+    border-radius: 6px;
+    background: #FFF;
+
+}
+.box h1{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+
+.box h5{
+    color: #000;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;    
+}
+.box button{
+    width: 161px;
+    height: 34px;
+    flex-shrink: 0;
+    background: #151515; 
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;  
+    
+}
+
+.footer{
+    width: 80%;
+    height: 215px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.link ul{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.link > ul > li > a{
+    color: #FFF;
+    text-align: right;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;    
+}
+.card img{
+    padding: 0px 10px;
+}
