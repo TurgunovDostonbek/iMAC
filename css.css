@@ -110,13 +110,57 @@
     .nav_logo ul{
         display: none;
     }
-    
-    
-    
+
     .menu{
         display: block;
     }
 }
+
+
+/*  ///  Heroo /// */
+
+.hero_wrapper{
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    display: flex;
+    align-items:center;
+    background-image: url(./img/Header\ \(1\).png);
+}
+
+.hero{
+    display: flex;                              
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+}
+
+.hero h1{
+    text-align: center;
+    color: #FFF;
+    font-family: Prosto One;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100px; /* 75% */   
+}
+.hero button{
+    width: 200px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;    
+    color: #171718;
+    font-family: Montserrat;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;   
+}
+
+
 
 
 

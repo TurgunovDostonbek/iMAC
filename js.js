@@ -12,7 +12,7 @@ close1.addEventListener("click", ()=>{
     navbarModal.style.transform = "translateY(-100%)"
 })
 
-bxMoon.addEventListener('Onclick', () =>{
-    bxMoon.classList.toggle("bxSun")
+// bxMoon.addEventListener('Onclick', () =>{
+//     bxMoon.classList.toggle("bxSun")
     
-})
+// })
