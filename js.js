@@ -13,6 +13,6 @@ close1.addEventListener("click", ()=>{
 })
 
 // bxMoon.addEventListener('Onclick', () =>{
-//     bxMoon.classList.toggle("bxSun")
+//     bxMoon.classList.toggle(bxMoon,bxSun)
     
 // })
