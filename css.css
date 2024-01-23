@@ -185,7 +185,35 @@
     line-height: normal; 
 }
 
+@media only screen and (max-width: 730px){
+    .section{
+        /* padding-top: 50px;
+        padding-bottom: 50px; */
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 50px 20px;
+    }
 
+    .section_info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .section p{
+        width: 40%;
+        color: #FFF;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal; 
+    }
+}
 
 
 
