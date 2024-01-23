@@ -225,6 +225,10 @@
 
 /*  /// Second_section  */
 
+
+
+
+
 .section_second{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -241,11 +245,15 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 45%;
+    width: 250px;
     height: 312px;
     flex-shrink: 0;
     border-radius: 6px;
     background: #FFF;
+}
+.box:hover{
+    transform: rotate(1.1);
+    transition: 1s all;
 }
 
 .box h1{
